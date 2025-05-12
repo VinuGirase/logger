@@ -8,7 +8,7 @@ import (
 	"time"
 )
 // Shared variable to control stop state
-var shouldStop = true
+var shouldStop = false
 
 // CORS middleware allowing all origins
 func withCORS(next http.Handler) http.Handler {
